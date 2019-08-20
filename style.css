@@ -1,0 +1,117 @@
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700&display=swap');
+
+ body {
+ 	font-family: 'Open Sans', serif;
+ 	font-size: 24px;
+ 	color: #FFFFFF
+ 	background-color: rgb(210,210,210);
+ }
+
+ .container {
+ 	width: 700px;
+ 	margin: 10px auto;
+ }
+
+ .card-white {
+ 	background-color: white;
+ 	padding: 10px;
+ 	margin: 20px;
+ 	box-shadow: 0 10px 30px rgb(0,0,0,0.1);
+ 	text-align: center;
+ 	border-radius: 4px;
+ }
+
+ h1 {
+  font-family: "proxima-nova";
+  font-size: 50px;
+ 	color: rgb(34,34,34);
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-style: normal;
+  margin: 20px;
+  margin-bottom:5px;
+ }
+
+ h2 {
+  font-size: 26px;
+  font-family: 'Raleway', sans-serif;
+ 	color: #5c5c5c;
+ }
+
+ h3 {
+  font-weight: normal;
+  line-height: 1.6em;
+  letter-spacing: 3px;
+  font-family: "proxima-nova";
+  line-height: 1.5em;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-style: normal;
+  display: block;
+  font-size: 20px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+ }
+
+ .site-tag-line {
+    font-family: "proxima-nova";
+    font-size: 16px;
+    line-height: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(0,0,0,.3);
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 10px;
+ }
+
+ .btn-blue {
+ 	background-color: #6B72E1;
+ 	text-decoration: none;
+ 	padding: 16px;
+ 	border-radius: 4px;
+ }
+
+ .btn-blue:hover {
+ 	background-color: #20a5ac;
+ }
+
+ .img-circle {
+ 	border-radius: 40%;
+ 	width: 300px;
+ }
+
+ .list-inline {
+ 	list-style: none;
+ 	padding: 0;
+ }
+
+ .list-inline li {
+ 	display: inline-block;
+ }
+
+ .list-inline a {
+ 	font-size: 24px;
+ 	margin: 20px;
+ }
+
+ @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+
+}
